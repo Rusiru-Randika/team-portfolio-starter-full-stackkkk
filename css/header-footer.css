@@ -98,7 +98,7 @@
 }
 
 .site-footer {
-  background: #2f2d4b;
+   background-color: #171c2c;
   color: #f4ecff;
   padding: 22px 0 18px;
   text-align: center;
@@ -117,7 +117,7 @@
 }
 
 .site-footer a {
-  color: #ffffff;
+  color: #a982d2;
   text-decoration: none;
   font-size: 0.8rem;
 }
