@@ -23,10 +23,15 @@
 
 .brand {
   color: #fff;
-  font-size: 2.05rem;
+  font-size: 1.75rem;
   font-weight: 700;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.03em;
   line-height: 1;
+  text-decoration: none;
+}
+
+.brand-accent {
+  color: #c4a7e7;
 }
 
 .main-nav {
@@ -77,28 +82,17 @@
 }
 
 .toggle-icon {
-  width: 14px;
-  height: 14px;
-  border: 2px solid rgba(255, 255, 255, 0.9);
-  border-radius: 50%;
-  position: relative;
-  display: inline-block;
-  box-sizing: border-box;
-}
-
-.toggle-icon::before {
-  content: "";
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  background: rgba(255, 255, 255, 0.9);
-  border-radius: 50%;
-  right: -2px;
-  top: -2px;
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.9);
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .site-footer {
-   background-color: #171c2c;
+  background-color: var(--header-bg);
   color: #f4ecff;
   padding: 22px 0 18px;
   text-align: center;

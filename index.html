@@ -12,7 +12,7 @@
   <!-- MEMBER 4: HEADER goes here -->
 <header class="site-header">
   <div class="header-inner">
-    <div class="brand">TeamCode</div>
+    <a class="brand" href="#home"><span>Team</span><span class="brand-accent">Code</span></a>
 
     <nav class="main-nav" aria-label="Main navigation">
       <a href="#home" class="active">Home</a>
@@ -21,8 +21,10 @@
       <a href="#contact">Contact</a>
     </nav>
 
-    <button class="theme-toggle" type="button" aria-label="Toggle theme">
-      <span class="toggle-icon"></span>
+    <button class="theme-toggle" type="button" aria-label="Enable dark mode" aria-pressed="false">
+      <svg class="toggle-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path d="M16.5 3.5a8.5 8.5 0 1 0 0 17c-3.3-1.8-5.3-5.1-5.3-8.5s2-6.7 5.3-8.5Z" />
+      </svg>
     </button>
   </div>
 </header>
