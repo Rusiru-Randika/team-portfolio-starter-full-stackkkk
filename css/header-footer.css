@@ -1,12 +1,12 @@
 /* MEMBER 4: header, navigation and footer styles */
-* body {
+body {
   margin: 0;
-  background: #f4eff8;
+  background: var(--bg-main);
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .site-header {
-  background: #4e1f73;
+  background: var(--header-bg);
   width: 100%;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
 }
@@ -92,7 +92,7 @@
 }
 
 .site-footer {
-  background-color: var(--header-bg);
+  background-color: #1F2233;
   color: #f4ecff;
   padding: 22px 0 18px;
   text-align: center;
