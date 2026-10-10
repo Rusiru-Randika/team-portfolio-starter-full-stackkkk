@@ -1,6 +1,4 @@
-/* ==========================================
-   GLOBAL VARIABLES & THEMES
-   ========================================== */
+
 :root {
   /* Light Mode Colors */
   --bg-main: #fcfaff;
@@ -16,7 +14,6 @@
   --shadow: 0 4px 12px rgba(88, 28, 135, 0.05);
 }
 
-/* Dark Mode Theme */
 body.dark-mode {
   --bg-main: #0f172a;
   --bg-section-alt: #18181b;
@@ -31,9 +28,7 @@ body.dark-mode {
   --shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
-/* ==========================================
-   RESET & BASE STYLES
-   ========================================== */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -51,9 +46,7 @@ a {
   color: inherit;
 }
 
-/* ==========================================
-   COMMON LAYOUT & TYPOGRAPHY
-   ========================================== */
+
 .content-section {
   padding: 4rem 1.5rem;
 }
@@ -80,7 +73,6 @@ a {
   font-weight: 700;
 }
 
-/* Buttons */
 .button {
   display: inline-block;
   background-color: var(--primary);
@@ -99,9 +91,7 @@ a {
   transform: translateY(-1px);
 }
 
-/* ==========================================
-   1. HERO SECTION
-   ========================================== */
+
 .hero {
   background: linear-gradient(180deg, var(--bg-section-alt) 0%, var(--bg-main) 100%);
   padding: 5rem 1.5rem;
@@ -126,9 +116,7 @@ a {
   margin-bottom: 2rem;
 }
 
-/* ==========================================
-   2. ABOUT SECTION
-   ========================================== */
+
 .about-section {
   max-width: 1000px;
   margin: 0 auto;
@@ -150,9 +138,7 @@ a {
   color: var(--text-muted);
 }
 
-/* ==========================================
-   3. TEAM SECTION
-   ========================================== */
+
 .team-grid {
   max-width: 1000px;
   margin: 0 auto;
@@ -207,9 +193,7 @@ a {
   color: var(--text-muted);
 }
 
-/* ==========================================
-   4. PROJECTS SECTION
-   ========================================== */
+
 .projects-section {
   max-width: 1000px;
   margin: 0 auto;
@@ -261,9 +245,7 @@ a {
   border-radius: 20px;
 }
 
-/* ==========================================
-   5. SKILLS SECTION
-   ========================================== */
+
 .skills-list {
   max-width: 700px;
   margin: 0 auto;
@@ -283,9 +265,7 @@ a {
   box-shadow: var(--shadow);
 }
 
-/* ==========================================
-   6. CONTACT SECTION
-   ========================================== */
+
 .contact-section {
   max-width: 700px;
   margin: 0 auto;
@@ -357,9 +337,8 @@ a {
   border-color: var(--primary);
 }
 
-/* Success Message Placeholder */
 .success-message {
-  color: #16a34a; /* Green */
+  color: #16a34a; 
   font-size: 0.88rem;
   font-weight: 600;
 }
