@@ -1,11 +1,9 @@
-
 :root {
-  /* Light Mode Colors */
   --bg-main: #fcfaff;
   --bg-section-alt: #f5f0ff;
   --bg-card: #ffffff;
-  --header-bg: #4c1d95; /* Deep Purple */
-  --primary: #581c87; /* Main Accent Purple */
+  --header-bg: #4c1d95; 
+  --primary: #581c87; 
   --primary-hover: #3b0764;
   --text-main: #1f2937;
   --text-muted: #6b7280;
@@ -294,7 +292,6 @@ a {
   color: var(--primary);
 }
 
-/* Form Controls */
 .contact-form {
   background-color: var(--bg-card);
   padding: 2rem;
