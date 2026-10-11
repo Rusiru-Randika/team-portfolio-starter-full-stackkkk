@@ -91,9 +91,10 @@ a {
 
 
 .hero {
-  background: linear-gradient(180deg, var(--bg-section-alt) 0%, var(--bg-main) 100%);
+  background: linear-gradient(135deg, #d3c3e2 0%, #a086d1 50%, #c2b5d8 100%);
   padding: 5rem 1.5rem;
   text-align: center;
+  color: #ffffff;
 }
 
 .hero-content {
@@ -103,15 +104,28 @@ a {
 
 .hero h1 {
   font-size: 2.5rem;
-  color: var(--text-main);
+  color: #ffffff;
   margin: 0.5rem 0 1rem;
   line-height: 1.2;
 }
 
 .hero-text {
-  color: var(--text-muted);
+  color: #e9d5ff;
   font-size: 1.1rem;
   margin-bottom: 2rem;
+}
+
+.hero .button {
+  background-color: #ffffff;
+  color: #4c1d95 !important;
+  font-weight: 700;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.hero .button:hover {
+  background-color: #f3e8ff;
+  color: #3b0764 !important;
+  transform: translateY(-2px);
 }
 
 
@@ -136,6 +150,14 @@ a {
   color: var(--text-muted);
 }
 
+
+.team-section {
+  background: linear-gradient(180deg, #f3e8ff 0%, #ede4f7 100%);
+}
+
+body.dark-mode .team-section {
+  background: linear-gradient(180deg, #1e1b4b 0%, #15102a 100%);
+}
 
 .team-grid {
   max-width: 1000px;
